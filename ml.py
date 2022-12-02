@@ -12,8 +12,8 @@ X, y = load_diabetes(return_X_y=True)
 
 # Model Specification
 base_lm  = LinearRegression()
-ridge_lm = Ridge(alpha = 0.2)
-lasso_lm = Lasso(alpha = 0.2)
+ridge_lm = Ridge(alpha = 0.232)
+lasso_lm = Lasso(alpha = 0.232)
 voting_m = VotingRegressor([
   ("base", base_lm),
   ("l1", lasso_lm), 
