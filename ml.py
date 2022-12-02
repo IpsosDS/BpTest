@@ -1,3 +1,6 @@
+
+# First script in Github Ipsos
+
 import matplotlib.pyplot as plt
 
 from sklearn.datasets import load_diabetes
